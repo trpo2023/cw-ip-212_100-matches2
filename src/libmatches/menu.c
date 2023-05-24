@@ -1,4 +1,3 @@
-  GNU nano 4.8                                             menu.c                                             Modified  #include "menu.h"
 #include <stdio.h>
 #include <stdlib.h>
 

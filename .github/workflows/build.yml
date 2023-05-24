@@ -15,7 +15,7 @@ jobs:
 				run: make test
             
 			- name: Run test
-				run: bin/test/matchestest
+				run: ./bin/test/matchestest
 
 
 			- name: Build application

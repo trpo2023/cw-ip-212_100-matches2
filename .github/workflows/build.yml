@@ -5,11 +5,9 @@ on: push
 jobs:
 	build:
 		runs-on: ubuntu-20.04
-           
- 
+            
 		steps:
 			- uses: actions/checkout@v2
- 
  
 			- name: Build test 
 				run: make test
@@ -17,7 +15,5 @@ jobs:
 			- name: Run test
 				run: ./bin/test/matchestest
 
-
 			- name: Build application
 				run: make
-        
